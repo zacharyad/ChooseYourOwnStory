@@ -1,0 +1,249 @@
+{
+  "intro": {
+    "title": "The Magic Amulet",
+    "story": [
+      "Mia had just moved into a big, old house with her family. One sunny afternoon, while exploring the attic, she found a dusty, old chest. Inside, she discovered a beautiful, glowing amulet. As she held it, she felt a strange warmth spreading through her hand. Was it magic?",
+      "The amulet had intricate designs and symbols that Mia couldn't understand. She knew this was the beginning of an adventure. But where should she start?"
+    ],
+    "options": [
+      {
+        "text": "Take the amulet to the local library to research its origins.",
+        "arc": "library"
+      },
+      {
+        "text": "Show the amulet to her new friend, Tim, who lives next door.",
+        "arc": "friend"
+      },
+      {
+        "text": "Wear the amulet and see if anything magical happens.",
+        "arc": "wear"
+      }
+    ]
+  },
+  "library": {
+    "title": "The Library",
+    "story": [
+      "Mia decided to visit the local library. The librarian, Mrs. Green, was known for her knowledge of the town's history. Mia hoped she could help.",
+      "Mrs. Green examined the amulet carefully. 'This is very old and quite special,' she said. 'It might be connected to the legend of the enchanted forest nearby. You should investigate.'"
+    ],
+    "options": [
+      {
+        "text": "Go to the enchanted forest to investigate.",
+        "arc": "forest"
+      },
+      {
+        "text": "Ask Mrs. Green for more details about the legend.",
+        "arc": "legend"
+      },
+      {
+        "text": "Head back home and think about what to do next.",
+        "arc": "home"
+      }
+    ]
+  },
+  "friend": {
+    "title": "New Friend",
+    "story": [
+      "Mia rushed next door to show the amulet to her new friend, Tim. Tim was curious and loved adventures just as much as Mia did.",
+      "Tim's eyes widened when he saw the amulet. 'I think I saw something like this in my grandpa's old book of legends,' he said. 'We should look it up!'"
+    ],
+    "options": [
+      {
+        "text": "Look up the amulet in Tim's grandpa's book of legends.",
+        "arc": "book"
+      },
+      {
+        "text": "Invite Tim to come along and explore the enchanted forest.",
+        "arc": "forest"
+      },
+      {
+        "text": "Try experimenting with the amulet to see what it can do.",
+        "arc": "experiment"
+      }
+    ]
+  },
+  "wear": {
+    "title": "The Magic Unleashed",
+    "story": [
+      "Mia decided to wear the amulet. As soon as she put it on, the symbols on it began to glow brightly. Suddenly, Mia found herself surrounded by a shimmering light and transported to a different place.",
+      "She was now in a beautiful meadow filled with flowers and a gentle breeze. In front of her stood a majestic unicorn, staring at her with kind eyes."
+    ],
+    "options": [
+      {
+        "text": "Talk to the unicorn and ask for guidance.",
+        "arc": "unicorn"
+      },
+      {
+        "text": "Explore the meadow to see what else is there.",
+        "arc": "meadow"
+      },
+      {
+        "text": "Try to use the amulet to return home.",
+        "arc": "return-home"
+      }
+    ]
+  },
+  "forest": {
+    "title": "The Enchanted Forest",
+    "story": [
+      "Mia and Tim made their way to the enchanted forest. The trees were tall and old, with thick canopies that let in little sunlight. It felt like stepping into another world.",
+      "As they walked deeper into the forest, they noticed the air becoming cooler and the sounds of wildlife surrounding them. Suddenly, they came across a glowing portal hidden behind some bushes."
+    ],
+    "options": [
+      {
+        "text": "Enter the glowing portal.",
+        "arc": "portal"
+      }
+    ]
+  },
+  "legend": {
+    "title": "The Legend Revealed",
+    "story": [
+      "Mrs. Green took out an old book from the library’s special collection. She opened it to a page that depicted the amulet.",
+      "'This amulet is said to be a key to a hidden realm,' Mrs. Green explained. 'Only those with pure hearts can use it to unlock the secrets of this realm. It is also said to grant its wearer three wishes.'"
+    ],
+    "options": [
+      {
+        "text": "Wish for something using the amulet.",
+        "arc": "wish"
+      },
+      {
+        "text": "Go to the hidden realm described in the book.",
+        "arc": "hidden-realm"
+      },
+      {
+        "text": "Thank Mrs. Green and head back home.",
+        "arc": "home"
+      }
+    ]
+  },
+  "book": {
+    "title": "Tim's Grandpa's Book",
+    "story": [
+      "Tim brought out his grandpa's old book of legends. They flipped through the pages until they found a drawing of the amulet.",
+      "'This amulet is linked to the Guardian of the Forest,' Tim read aloud. 'It holds great power and can lead the bearer to untold treasures and adventures.'"
+    ],
+    "options": [
+      {
+        "text": "Search for the Guardian of the Forest.",
+        "arc": "guardian"
+      },
+      {
+        "text": "Use the amulet to find the hidden treasure.",
+        "arc": "treasure"
+      },
+      {
+        "text": "Show the book to Mrs. Green for more insights.",
+        "arc": "library"
+      }
+    ]
+  },
+  "experiment": {
+    "title": "The Amulet's Powers",
+    "story": [
+      "Mia and Tim decided to experiment with the amulet. They tried waving it around, speaking to it, and even pointing it at various objects.",
+      "Suddenly, a beam of light shot out from the amulet, pointing towards a specific direction. It seemed like the amulet wanted them to follow."
+    ],
+    "options": [
+      {
+        "text": "Follow the beam of light.",
+        "arc": "light"
+      },
+      {
+        "text": "Ignore the light and keep experimenting.",
+        "arc": "more-experiments"
+      },
+      {
+        "text": "Put the amulet away and take a break.",
+        "arc": "break"
+      }
+    ]
+  },
+  "unicorn": {
+    "title": "The Unicorn's Wisdom",
+    "story": [
+      "Mia approached the unicorn cautiously. 'Hello, I’m Mia,' she said. 'Can you help me understand this amulet?'",
+      "The unicorn nodded. 'This amulet is a powerful artifact,' it said. 'It can grant wishes and open doors to magical realms. But be careful with its power.'"
+    ],
+    "options": [
+      {
+        "text": "Ask the unicorn to guide you to a magical realm.",
+        "arc": "magical-realm"
+      },
+      {
+        "text": "Ask the unicorn to help you return home.",
+        "arc": "return-home"
+      },
+      {
+        "text": "Explore the meadow with the unicorn.",
+        "arc": "meadow"
+      }
+    ]
+  },
+  "meadow": {
+    "title": "Exploring the Meadow",
+    "story": [
+      "Mia decided to explore the meadow. She found beautiful flowers, sparkling streams, and friendly woodland creatures. The air was filled with the sweet scent of blooming flowers.",
+      "As she wandered, she found a hidden path leading to a shimmering cave. What could be inside?"
+    ],
+    "options": [
+      {
+        "text": "Enter the shimmering cave.",
+        "arc": "cave"
+      },
+      {
+        "text": "Continue exploring the meadow.",
+        "arc": "meadow-continued"
+      },
+      {
+        "text": "Return to the unicorn.",
+        "arc": "unicorn"
+      }
+    ]
+  },
+  "home": {
+    "title": "Back Home",
+    "story": [
+      "Mia decided it was time to return home. She closed her eyes and focused on the amulet. In an instant, she was back in her attic, holding the amulet tightly.",
+      "The adventure had been incredible, and Mia knew she would have many more with the magical amulet."
+    ],
+    "options": [
+      {
+        "text": "Put the amulet away safely and go downstairs for dinner.",
+        "arc": "end"
+      },
+      {
+        "text": "Hide the amulet in a secret place for future adventures.",
+        "arc": "end"
+      }
+    ]
+  },
+  "portal": {
+    "title": "Through the Portal",
+    "story": [
+      "Mia and Tim decided to step through"
+    ],
+    "options": [
+      {
+        "text": "Put the amulet away safely and go downstairs for dinner.",
+        "arc": "end"
+      },
+      {
+        "text": "Hide the amulet in a secret place for future adventures.",
+        "arc": "end"
+      }
+    ]
+  },
+  "end": {
+    "title": "And that concludes the story",
+    "story": [
+      "The end.... for now."
+    ],
+    "options": [
+      {
+        "text": "Start Over?",
+        "arc": "intro"
+      }
+    ]
+  }
+}
